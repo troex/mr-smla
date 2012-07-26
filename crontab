@@ -1,0 +1,3 @@
+33      6       *       *       *       find /var/www/htdocs/mail/mr.smla/meta/ -ctime +30 -exec rm {} \;
+35      6       *       *       *       find /var/www/htdocs/mail/mr.smla/logs/ -ctime +7 -exec rm {} \;
+7,37    *       *       *       *       /var/scripts/smla_cdb.pl > /dev/null

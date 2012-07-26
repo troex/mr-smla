@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif, serif, ariail;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+table {
+	border: 0px;
+}
+
+td {
+	border: 0px;
+}
+
+#meta {
+	margin: 5px;
+	padding: 5px;
+	background-color: #ddd;
+	border: 1px solid black;
+}
+
